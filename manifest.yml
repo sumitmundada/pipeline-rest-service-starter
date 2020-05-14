@@ -1,7 +1,9 @@
 ---
-application:
+applications:
   - name: sumit-academy-jenkins-test
-  - memory: 768M
-  - instance: 1
-  - random-route: true
-  - path: target/rest-service-Sumit-1.0.0.jar
+    path: target/rest-service-Sumit-1.0.0.jar
+    memory: 768M
+    instances: 1
+    random-route: true
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
