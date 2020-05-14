@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.cognizant.academy</groupId>
-  <artifactId>rest-service</artifactId>
+  <artifactId>rest-service-Sumit</artifactId>
   <version>1.0.0</version>
 
-  <name>Academy Rest Service</name>
+  <name>Academy Rest Service - Sumit</name>
   <url>http://www.example.com</url>
 
   <properties>

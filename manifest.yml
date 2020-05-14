@@ -1,0 +1,7 @@
+---
+application:
+  - name: sumit-academy-jenkins-test
+  - memory: 768M
+  - instance: 1
+  - random-route: true
+  - path: target/rest-service-Sumit-1.0.0.jar
